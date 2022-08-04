@@ -16,14 +16,14 @@
 
 ## Files
 
-### Initialize.ps1
+### [Initialize.ps1](https://github.com/ForestHouse2316/LoopMyUndervloting/blob/main/UnderVolt/Initialize.ps1)
 Reset all values (changed by UnderVolt.ps1) to 0
 
-### UnderVolt.ps1
+### [UnderVolt.ps1](https://github.com/ForestHouse2316/LoopMyUndervloting/blob/main/UnderVolt/UnderVolt.ps1)
 Undervolt your computer using powershell
 
-### UnderVolt.vbs
+### [UnderVolt.vbs](https://github.com/ForestHouse2316/LoopMyUndervloting/blob/main/UnderVolt/UnderVolt.vbs)
 Hide the powershell window when it's executed by task scheduler
 
-### UnderVolt.xml
+### [UnderVolt.xml](https://github.com/ForestHouse2316/LoopMyUndervloting/blob/main/UnderVolt/UnderVolt.xml)
 Preset file of task scheduler
