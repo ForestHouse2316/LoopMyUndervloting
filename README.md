@@ -17,7 +17,8 @@
 ## Files
 
 ### [Initialize.ps1](https://github.com/ForestHouse2316/LoopMyUndervloting/blob/main/UnderVolt/Initialize.ps1)
-Reset all values (changed by UnderVolt.ps1) to 0
+Reset all values (changed by UnderVolt.ps1) to 0\
+> _(Voltage offsets only)_
 
 ### [UnderVolt.ps1](https://github.com/ForestHouse2316/LoopMyUndervloting/blob/main/UnderVolt/UnderVolt.ps1)
 Undervolt your computer using powershell
