@@ -4,7 +4,7 @@ if ($status -ne "Running") { start-service -name "XTU3SERVICE"; sleep 5 }
 
 while ( $true ) {
 	& 'C:\Program Files (x86)\Intel\Intel(R) Extreme Tuning Utility\Client\XtuCLI.exe' -t -id 34 | Foreach-Object{ $coreoff += $_ };
-	if ($coreoff.indexOf("-145") -eq -1) {
+	if ($coreoff.indexOf("[Your CoreOffset Value]") -eq -1) {
 		# You should type your undervolt offset value to [Your offset]
 		# And in case of [Set offset same with above], just set the value same with [Your offset] in above line.
 
